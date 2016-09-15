@@ -1,3 +1,8 @@
+env:
+  global:
+   # Required for clang.
+   - CXXFLAGS="-fno-fast-math"
+
 branches:
   except:
   - /^v[0-9]/
